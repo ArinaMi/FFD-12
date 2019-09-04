@@ -1,0 +1,843 @@
+@font-face { 
+    font-family: 'Saira Condensed';
+    src: url(fonts/Sairacondensed.ttf) format("truetype"),
+    font-weight: 700;
+    font-style: normal;
+}
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+body {
+  font-family: 'OpenSans', sans-serif;
+  font-weight: 400;
+  min-width: 320px;
+}
+
+main {
+  overflow: hidden;
+}
+
+footer {
+ width: 100%;
+  height: 100%;
+  background: url("img/footer_desktop.png") no-repeat;
+  background-size: cover;
+  border-top: 1px solid #EAE9E9;
+  background-position: center top;
+}
+
+.top {
+  width: 100%;
+  height: 100%;
+  background: url("img/header_desktop.png") no-repeat;
+  background-size: cover;
+  border-top: 1px solid transparent;
+  background-position: center top;
+}
+
+.menu {
+text-align: center;
+margin-bottom: 108px;
+margin-top: 38px;
+}
+
+.top__logo-container {
+  text-align: right;
+  margin-top: -27px;
+  margin-right: 78px;
+}
+
+.logo {
+  fill: #fff;
+  width: 25px;
+  height: 25px;
+}
+
+.heading {
+   text-align: left;
+  margin-left: 41vw;
+   margin-bottom: 10.5vw;
+}
+
+h1 {
+  font-family: Saira Condensed;
+font-style: normal;
+font-weight: 800;
+font-size: 15vw;
+line-height: 84%;
+color: #E5E5E5;
+letter-spacing: 0.1em;
+  margin-top: 37px;
+  margin-bottom: 65px;
+  display: block;
+}
+
+.top__soon {
+  font-family: 'Saira Condensed', sans-serif;
+  color: #E5E5E5;
+  text-transform: uppercase;
+font-weight: 500;
+font-size: 36px;
+line-height: 57px;
+letter-spacing: 0.1em;
+}
+
+.top__collection {
+
+  font-family: 'Saira Condensed', sans-serif;
+  color: #E5E5E5;
+  text-transform: uppercase;
+  font-size: 34px;
+  font-style: normal;
+  letter-spacing: 0.8em;
+  font-weight: 500;
+  letter-spacing: 0.8em;
+}
+
+a {
+  text-decoration: none;
+  color: #E5E5E5;
+  font-family: Saira Condensed;
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 28px;
+letter-spacing: 0.5em;
+margin: 0px 37px 0px 41px;
+}
+
+.line {
+width: 133px;
+height: 4px;
+top: 52px;
+ color: #E5E5E5;
+}
+
+.info_about {
+
+background-color: #EAE9E9;
+  border-top: 1px solid transparent;
+  height: 895px;
+  text-align: center;
+}
+
+.about_headline {
+  font-family: Saira Condensed;
+font-style: normal;
+font-weight: bold;
+font-size: 48px;
+line-height: 76px;
+letter-spacing: 0.1em;
+color: #3D414A;
+  text-align: center;
+  margin-top: 73px;
+  margin-bottom: 73px;
+}
+
+.info_about_text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  height: 560px;
+  width: 1121px;
+  margin-left: 7vw;
+}
+
+.about_text{
+  flex-basis: 50%;
+text-align: left;
+ max-width: 848px;
+  margin-top: -10vh; 
+font-family: Saira Condensed;
+font-style: normal;
+font-weight: normal;
+font-size: 32px;
+line-height: 50px;
+letter-spacing: 0.1em;
+color: #3D414A;
+  order: 1;
+}
+
+.about_img {
+  order: 3;
+  margin-left: 12vh;
+}
+
+.advantages {
+display: flex;
+  order: 2;
+  margin-top: -3.5vh;
+  width: 720px;
+   justify-content: flex-start;
+}
+
+.advantages_number {
+ font-family: Saira Condensed;
+font-style: normal;
+font-weight: bold;
+font-size: 72px;
+line-height: 113px;
+letter-spacing: 0.1em;
+color: #3D414A;
+  text-align: left;
+}
+
+.advantages_text{
+  font-family: Saira Condensed;
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 28px;
+letter-spacing: 0.1em;
+color: #3D414A;
+text-align: left;
+width: 200px;
+margin-right: 56px;
+}
+
+.news_block {
+  display: flex;
+  justify-content: center;
+    align-items: center;
+ width: 100%;
+height: 117px;
+background: #B69189;
+}
+
+.news_text{
+width: 789px;
+font-family: Saira Condensed;
+font-style: normal;
+font-weight: bold;
+font-size: 28px;
+line-height: 44px;
+text-align: center;
+letter-spacing: 0.1em;
+color: #E5E5E5;
+}
+
+.photo {
+   width: 100%;
+height: 100%;
+    background-size: cover;
+  background-position: center ;
+}
+
+.catalog_info {
+    display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.catalog_name {
+     display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+  
+width: 34vw;
+height: 248px;
+background: #DED6D7;
+}
+
+.name_swimsuit {
+  width: 271px;
+  height: 186px;
+  font-family: Saira Condensed;
+font-style: normal;
+font-weight: normal;
+font-size: 34px;
+line-height: 176%;
+color: #3D414A;
+}
+
+.sale {
+  margin-top: -1vw;
+  font-family: Saira Condensed;
+font-style: normal;
+font-weight: 500;
+font-size: 3.2vw;
+line-height: 125%;
+color: #3D414A;
+}
+
+.catalog_size { 
+   display: flex;
+  flex-direction: column;
+  width: 67vw;
+height: 248px;
+background: #93959A;
+  font-family: Saira Condensed;
+font-style: normal;
+font-weight: 600;
+font-size: 3.2vw;
+line-height: 146%;
+color: #E5E5E5;
+}
+
+.size {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  align-items: center; 
+  height: 50%;
+}
+
+.button-wrapper {
+   display: flex;
+  flex-direction: row;
+  height: 50%;
+}
+
+.button-detalis {
+   display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+}
+
+.detalis {
+font-family: Saira Condensed;
+font-style: normal;
+font-weight: normal;
+font-size: 36px;
+line-height: 194%;
+letter-spacing: 0px;
+color: #E5E5E5;
+}
+
+.button-preorder {
+ display: flex;
+  justify-content: center;
+  align-items: center;
+width: 50%;
+  background: rgba(61, 65, 74, 0.5);
+}
+
+.preorder {
+  font-family: Saira Condensed;
+font-style: normal;
+font-weight: 500;
+font-size: 40px;
+line-height: 175%;
+color: #E5E5E5;
+  letter-spacing: 0px;
+}
+
+.join_community_info{
+background: #EAE9E9;
+}
+
+.join_community_heading {
+    display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.join_community {
+  margin-top: 5.7vw;
+  font-family: Saira Condensed;
+font-style: normal;
+font-weight: bold;
+font-size: 48px;
+line-height: 76px;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.1em;
+color: #B69189;
+}
+
+.hashtag {
+  margin-top: -3vw;
+  font-family: Saira Condensed;
+font-style: normal;
+font-weight: 800;
+font-size: 144px;
+line-height: 125%;
+color: #B69189;
+letter-spacing: 0.1em;
+}
+
+.button-add {
+display: flex;
+justify-content: center;
+align-items: center;
+width: 25%;
+max-height: 100vw;
+background: rgba(61, 65, 74, 0.09);
+border: 3px solid rgba(61, 65, 74, 0.24);
+box-sizing: border-box;
+border-radius: 10px;
+}
+
+.add{
+  text-align: center;
+  font-family: Saira Condensed;
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 38px;
+letter-spacing: 0.1em;
+color: rgba(61, 65, 74, 0.62);
+mix-blend-mode: darken;
+opacity: 0.7;
+}
+
+.photo_community {
+     display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 57px;
+}
+
+.photo_people {
+  width: 25%;
+}
+
+.follow{
+  margin: auto;
+  margin-top: 90px;
+  max-width: 1049px;
+  font-family: Saira Condensed;
+font-style: normal;
+font-weight: 500;
+font-size: 32px;
+line-height: 50px;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.1em;
+color: #B69189;
+}
+
+.photo_swimsuit_footer {
+display: block;
+    margin-left: auto;
+    margin-right: auto;
+  margin-top: 14.5vw;
+}
+
+.menu_footer {
+  display: block;
+    margin-left: auto;
+    margin-right: auto;
+  margin-top: -10vw;
+    display: flex;
+  flex-direction: row;
+  width: 92vw;
+  justify-content: space-between;
+}
+
+.menu_first_footer {
+     display: flex;
+  flex-direction: column;
+   justify-content: flex-start;
+}
+
+.menu_second_footer {
+       display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.menu_bottom_footer {
+  font-family: Saira Condensed;
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 28px;
+letter-spacing: 0.5em;
+color: #B69189;
+    margin-top: 2.8vw;
+}
+
+
+.social_media{
+margin-bottom: 14px;
+  text-align: center;
+}
+
+.social_media_icon {
+  margin-right: 14px;
+}
+
+
+@media (max-width: 960px) {
+  
+  
+.heading {
+   text-align: center;
+  margin: 0 0 10.5vw 0;
+}
+  
+  .menu {
+   margin-left: 3vw;
+  }
+  
+  .top__collection {
+  font-size: 24px;
+}
+
+a {
+font-size: 14px;
+margin: 0px 30px 0px 37px;
+}
+
+.line {
+width: 90px;
+}
+  
+  .info_about {
+background-color: #EAE9E9;
+  border-top: 1px solid transparent;
+  height: 100%;
+  text-align: center;
+}
+  
+.about_headline {
+font-size: 40px;
+    margin-top: 20px;
+}
+  
+.info_about_text {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  height: 1300px;
+  max-width: 600px;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+.about_text{
+text-align: center;
+width: 100%;
+font-size: 26px;
+  margin-top: 10vh;
+  order: 2;
+}
+
+.about_img {
+  order: 1;
+  text-align: center;
+  margin: 0 0;
+}
+
+  .advantages {
+display: flex;
+  order: 3;
+  max-width: 600px;
+  justify-content: space-around;
+ margin-top: 4vh;
+    margin-bottom: 10vh;
+}
+  
+  .advantages_text {
+    font-size: 20px;
+    width: 180px;
+     margin-right: 10px;
+     text-align: center;
+  }
+  
+  .news_text {
+   font-size: 20px;
+     max-width: 600px;
+  }
+  
+  .catalog_info {
+    display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.catalog_name {
+width: 100%;
+height: 100px;
+}
+
+.name_swimsuit {
+  width: 500px;
+  height: 100px;
+  margin-top: 55px;
+font-size: 24px;
+}
+
+.sale {
+font-size: 30px;
+}
+
+.catalog_size { 
+   display: flex;
+  flex-direction: column;
+  width: 100%;
+height: 200px;
+font-size: 4vw;
+}
+
+.detalis {
+font-size: 30px;
+}
+
+.preorder {
+font-size: 30px;
+}
+
+  
+.join_community {
+margin-top: 5.7vw;
+font-size: 40px;
+}
+
+.hashtag {
+  margin-top: -3vw;
+font-size: 14vw;
+}
+  
+.add{
+font-size: 16px;
+  }
+  
+.follow{
+  max-width: 600px;
+font-size: 28px;
+}
+
+footer {
+   background: url('img/footer2.png') no-repeat;
+   background-size: cover;
+}
+
+.menu_bottom_footer {
+font-size: 13px;
+line-height: 28px;
+color: #B69189;
+    margin-top: 2.8vw;
+}
+  
+.social_media_icon {
+  width: 25px;
+  height: 25px;
+}
+  
+}
+
+@media (min-width: 320px) and (max-width: 640px) {
+
+.top {
+  width: 100%;
+  height: 100%;
+  background: url("img/header_mobile.png") no-repeat;
+  background-size: cover;
+  border-top: 1px solid transparent;
+  background-position: center top;
+}
+
+.line {
+width: 30px;
+}
+
+.top__logo-container {
+  text-align: right;
+  margin-right: 6vw;
+}
+
+  a {
+font-size: 12px;
+margin: 0px 13px 0px 20px;
+}
+
+.heading {
+  margin-bottom: 40vw;
+}
+  
+  h1{
+    font-size: 80px;
+       text-align: center;
+  margin: 0 0 10.5vw 0;
+  }
+  
+    .top__collection {
+  font-size: 15px;
+     text-align: center;
+     margin-bottom: 100vh;
+}
+  
+  .top__soon {
+font-size: 26px;
+   text-align: center;
+  margin: 0 0 10.5vw 0;
+}
+  
+  .about_headline {
+font-size: 28px;
+line-height: 40px;
+    width: 280px;
+    margin-left: auto;
+   margin-right: auto;
+}
+  
+  .about_img {
+   margin-left: auto;
+   margin-right: auto;
+    margin-top: -50px;
+  }
+  
+  .info_about_text {
+display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  height: 1300px;
+  max-width: 300px;
+   margin-left: auto;
+   margin-right: auto;
+  }
+ 
+  .about_text{
+text-align: center;
+width: 300px;
+font-size: 16px;
+    line-height: 30px;
+  order: 2;
+    margin-top: -20px;
+       margin-left: auto;
+   margin-right: auto;
+}
+
+.advantages {
+display: flex;
+    flex-direction: column;
+  order: 2;
+  justify-content: space-around;
+}
+  
+.advantages_number {
+margin-top: 20px;
+  text-align: left;
+}
+
+.advantages_text{
+font-size: 24px;
+line-height: 28px;
+text-align: center;
+width: 300px;
+}
+  
+    .news_text {
+font-size: 16px;
+line-height: 24px;
+  max-width: 300px;
+  }
+  
+  .name_swimsuit {
+  width: 220px;
+  height: 100px;
+  margin-top: 44px;
+font-size: 16px;
+}
+  
+.catalog_size { 
+font-size: 24px;
+line-height: 146%;
+color: #E5E5E5;
+  height: 120px;
+} 
+  
+  .detalis {
+font-size: 20px;
+}
+
+  .preorder{
+   font-size: 20px; 
+  }
+  
+  .join_community {
+    font-size: 20px; 
+  }
+  
+  .add {
+    font-size: 10px; 
+    line-height: 16px;
+  }
+  
+  .follow{
+   font-size: 16px;
+line-height: 24px;
+  width: 300px; 
+    margin-top: 40px;
+  }
+  
+  .photo_swimsuit_footer{
+    margin-top: 6%;
+  }
+  
+  footer {
+   background: #EAE9E9;
+     background-size: 100%;
+}
+  
+  .footer_all {
+       display: flex;
+  flex-direction: column;
+    justify-content: center; 
+    align-items: center;
+  }
+  
+  .menu_first_footer {
+     display: flex;
+  flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+      margin-top: 6vw;
+}
+
+.menu_second_footer {
+       display: flex;
+  flex-direction: row;
+    flex-wrap: wrap;
+      justify-content: center;
+}
+
+.menu_bottom_footer {
+  font-family: Saira Condensed;
+font-style: normal;
+font-weight: 600;
+font-size: 10px;
+line-height: 28px;
+letter-spacing: 0.5em;
+color: #B69189;
+    margin-top: 2vw;
+}
+  
+.menu_footer {
+  display: block;
+    margin-left: auto;
+    margin-right: auto;
+  margin-top: -16vw;
+    display: flex;
+  flex-direction: column;
+  width: 92vw;
+  justify-content: space-between;
+  text-align: center;
+}
+  
+  .social_media_icon {
+    width: 25px;
+    height: 25px;
+  }
+  
+  .social_media {
+      margin-top: 6vw;
+  }
+}
