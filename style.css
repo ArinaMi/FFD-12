@@ -80,7 +80,7 @@ letter-spacing: 0.5em;
 content: "—————————";
 font-size: 24px;
 line-height: 28px;
-letter-spacing: -0.13em;
+letter-spacing: -0.2em;
   width: 133px; 
       color: #E5E5E5; 
       font-size: 90%;
@@ -415,6 +415,7 @@ letter-spacing: 0.1em;
 color: rgba(61, 65, 74, 0.62);
 mix-blend-mode: darken;
 opacity: 0.7;
+text-decoration: none;
 }
 
 .photo_community {
@@ -547,7 +548,7 @@ font-size: 40px;
   flex-direction: column;
   flex-wrap: nowrap;
   justify-content: center;
-  height: 1300px;
+  height: 100%;
   max-width: 600px;
    margin-left: auto;
    margin-right: auto;
@@ -578,7 +579,7 @@ display: flex;
   
   .advantages_text {
     font-size: 20px;
-    width: 180px;
+    width: 250px;
      margin-right: 10px;
      text-align: center;
   }
@@ -650,12 +651,13 @@ footer {
    background-size: cover;
 }
 
-.menu_bottom_footer {
+.menu_button_footer {
 font-size: 13px;
 line-height: 28px;
 color: #B69189;
     margin-top: 2.8vw;
 }
+
   
 .social_media_icon {
   width: 25px;
@@ -717,12 +719,12 @@ line-height: 40px;
     width: 280px;
     margin-left: auto;
    margin-right: auto;
+   margin-bottom: 0;
 }
   
   .about_img {
    margin-left: auto;
    margin-right: auto;
-    margin-top: -50px;
   }
   
   .info_about_text {
@@ -730,7 +732,7 @@ display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
   justify-content: center;
-  height: 1300px;
+  height: 100%;
   max-width: 300px;
    margin-left: auto;
    margin-right: auto;
@@ -763,7 +765,7 @@ margin-top: 20px;
 font-size: 24px;
 line-height: 28px;
 text-align: center;
-width: 300px;
+width: 250px;
 }
   
     .news_text {
@@ -841,7 +843,7 @@ line-height: 24px;
       justify-content: center;
 }
 
-.menu_bottom_footer {
+.menu_button_footer {
   font-family: Saira Condensed;
 font-style: normal;
 font-weight: 600;
