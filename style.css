@@ -37,12 +37,14 @@ header {
   border-top: 1px solid transparent;
   background-position: center top;
   padding-top: 38px;
-
-  padding-left: 35vw;
+padding-right: 5vw;
+  padding-left: 4vw;
 
 }
 
 .menu {
+    width: 64%;
+  margin-left: auto;
 text-align: center;
 margin-bottom: 108px;
  display: flex;
@@ -90,7 +92,6 @@ letter-spacing: -0.2em;
 
 .top__logo-container {
   text-align: right;
-  margin-right: 4vw;
 }
 
 .logo {
@@ -101,7 +102,7 @@ letter-spacing: -0.2em;
 
 .heading {
    text-align: left;
-  margin-left: 5vw;
+  margin-left: 37vw;
   margin-bottom: 10.5vw;
 }
 
@@ -526,10 +527,6 @@ margin-bottom: 14px;
 font-size: 14px;
 }
 
-.about_catalog {
-    margin-left: 27.5vw;
-}
-
   
   .info_about {
 background-color: #EAE9E9;
@@ -677,9 +674,6 @@ header {
   background-position: center top;
 }
 
-.line {
-width: 30px;
-}
 
 .top__logo-container {
   text-align: right;
