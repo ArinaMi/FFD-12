@@ -29,25 +29,68 @@ footer {
   background-position: center top;
 }
 
-.top {
+header {
   width: 100%;
   height: 100%;
   background: url("img/header_desktop.png") no-repeat;
   background-size: cover;
   border-top: 1px solid transparent;
   background-position: center top;
+  padding-top: 38px;
+
+  padding-left: 35vw;
+
 }
 
 .menu {
 text-align: center;
 margin-bottom: 108px;
-margin-top: 38px;
+ display: flex;
+  flex-direction: row;
+  justify-content:space-between;
+}
+
+.about_catalog {
+   display: flex;
+  flex-direction: row;
+
+
+}
+
+
+.about_buttom, .catalog_buttom {
+  text-decoration: none;
+  color: #E5E5E5;
+  text-transform: uppercase;
+  font-family: Saira Condensed;
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 28px;
+letter-spacing: 0.5em;
+     position: relative;
+}
+
+.about_buttom {
+  position: relative;
+}
+
+
+.about_buttom:after {   
+content: "—————————";
+font-size: 24px;
+line-height: 28px;
+letter-spacing: -0.13em;
+  width: 133px; 
+      color: #E5E5E5; 
+      font-size: 90%;
+      padding: 2px;   
+      margin: 44px;
 }
 
 .top__logo-container {
   text-align: right;
-  margin-top: -27px;
-  margin-right: 78px;
+  margin-right: 4vw;
 }
 
 .logo {
@@ -58,11 +101,11 @@ margin-top: 38px;
 
 .heading {
    text-align: left;
-  margin-left: 41vw;
-   margin-bottom: 10.5vw;
+  margin-left: 5vw;
+  margin-bottom: 10.5vw;
 }
 
-h1 {
+.top__first-tagline {
   font-family: Saira Condensed;
 font-style: normal;
 font-weight: 800;
@@ -97,31 +140,13 @@ letter-spacing: 0.1em;
   letter-spacing: 0.8em;
 }
 
-a {
-  text-decoration: none;
-  color: #E5E5E5;
-  font-family: Saira Condensed;
-font-style: normal;
-font-weight: 600;
-font-size: 18px;
-line-height: 28px;
-letter-spacing: 0.5em;
-margin: 0px 37px 0px 41px;
-}
 
-.line {
-width: 133px;
-height: 4px;
-top: 52px;
- color: #E5E5E5;
-}
 
 .info_about {
-
 background-color: #EAE9E9;
   border-top: 1px solid transparent;
-  height: 895px;
   text-align: center;
+  padding-top: 73px;
 }
 
 .about_headline {
@@ -133,8 +158,8 @@ line-height: 76px;
 letter-spacing: 0.1em;
 color: #3D414A;
   text-align: center;
-  margin-top: 73px;
-  margin-bottom: 73px;
+  margin-bottom: 34px;
+  text-transform: capitalize;
 }
 
 .info_about_text {
@@ -142,16 +167,15 @@ color: #3D414A;
   flex-direction: column;
   justify-content: space-around;
   flex-wrap: wrap;
-  height: 560px;
-  width: 1121px;
-  margin-left: 7vw;
+  height: 600px;
+  width: 1252px;
+    margin-left: 7vw;
 }
 
 .about_text{
   flex-basis: 50%;
 text-align: left;
  max-width: 848px;
-  margin-top: -10vh; 
 font-family: Saira Condensed;
 font-style: normal;
 font-weight: normal;
@@ -164,13 +188,11 @@ color: #3D414A;
 
 .about_img {
   order: 3;
-  margin-left: 12vh;
 }
 
 .advantages {
 display: flex;
   order: 2;
-  margin-top: -3.5vh;
   width: 720px;
    justify-content: flex-start;
 }
@@ -195,8 +217,8 @@ line-height: 28px;
 letter-spacing: 0.1em;
 color: #3D414A;
 text-align: left;
-width: 200px;
-margin-right: 56px;
+width: 250px;
+padding-right: 56px;
 }
 
 .news_block {
@@ -221,6 +243,7 @@ color: #E5E5E5;
 }
 
 .photo {
+  display: block;
    width: 100%;
 height: 100%;
     background-size: cover;
@@ -237,11 +260,12 @@ height: 100%;
      display: flex;
   justify-content: center;
   flex-direction: row;
-  align-items: center;
+  align-items: flex-start;
   
 width: 34vw;
 height: 248px;
 background: #DED6D7;
+padding-top: 33px;
 }
 
 .name_swimsuit {
@@ -256,13 +280,13 @@ color: #3D414A;
 }
 
 .sale {
-  margin-top: -1vw;
   font-family: Saira Condensed;
 font-style: normal;
 font-weight: 500;
 font-size: 3.2vw;
 line-height: 125%;
 color: #3D414A;
+margin-top: 10px;
 }
 
 .catalog_size { 
@@ -285,6 +309,7 @@ color: #E5E5E5;
   flex-direction: row;
   align-items: center; 
   height: 50%;
+  text-transform: uppercase;
 }
 
 .button-wrapper {
@@ -308,6 +333,8 @@ font-size: 36px;
 line-height: 194%;
 letter-spacing: 0px;
 color: #E5E5E5;
+text-transform: uppercase;
+ text-decoration: none;
 }
 
 .button-preorder {
@@ -326,10 +353,13 @@ font-size: 40px;
 line-height: 175%;
 color: #E5E5E5;
   letter-spacing: 0px;
+    text-transform: uppercase;
+     text-decoration: none;
 }
 
 .join_community_info{
 background: #EAE9E9;
+padding-top: 5.7vw;;
 }
 
 .join_community_heading {
@@ -340,7 +370,6 @@ background: #EAE9E9;
 }
 
 .join_community {
-  margin-top: 5.7vw;
   font-family: Saira Condensed;
 font-style: normal;
 font-weight: bold;
@@ -354,7 +383,6 @@ color: #B69189;
 }
 
 .hashtag {
-  margin-top: -3vw;
   font-family: Saira Condensed;
 font-style: normal;
 font-weight: 800;
@@ -428,7 +456,7 @@ display: block;
   display: block;
     margin-left: auto;
     margin-right: auto;
-  margin-top: -10vw;
+
     display: flex;
   flex-direction: row;
   width: 92vw;
@@ -439,15 +467,18 @@ display: block;
      display: flex;
   flex-direction: column;
    justify-content: flex-start;
+   list-style-type: none;
 }
 
 .menu_second_footer {
        display: flex;
   flex-direction: column;
   justify-content: flex-end;
+    list-style-type: none;
 }
 
-.menu_bottom_footer {
+.menu_button_footer {
+    text-decoration: none;
   font-family: Saira Condensed;
 font-style: normal;
 font-weight: 600;
@@ -455,7 +486,11 @@ font-size: 18px;
 line-height: 28px;
 letter-spacing: 0.5em;
 color: #B69189;
-    margin-top: 2.8vw;
+text-transform: uppercase;
+}
+
+.menu_section {
+margin-bottom: 2.8vw;
 }
 
 
@@ -471,28 +506,29 @@ margin-bottom: 14px;
 
 @media (max-width: 960px) {
   
-  
+  header {
+    padding-left: 0;
+  }
+
 .heading {
    text-align: center;
   margin: 0 0 10.5vw 0;
 }
-  
-  .menu {
-   margin-left: 3vw;
-  }
+
   
   .top__collection {
   font-size: 24px;
 }
 
-a {
+
+.about_buttom, .catalog_buttom  {
 font-size: 14px;
-margin: 0px 30px 0px 37px;
 }
 
-.line {
-width: 90px;
+.about_catalog {
+    margin-left: 27.5vw;
 }
+
   
   .info_about {
 background-color: #EAE9E9;
@@ -566,7 +602,6 @@ height: 100px;
 .name_swimsuit {
   width: 500px;
   height: 100px;
-  margin-top: 55px;
 font-size: 24px;
 }
 
@@ -631,10 +666,10 @@ color: #B69189;
 
 @media (min-width: 320px) and (max-width: 640px) {
 
-.top {
-  width: 100%;
-  height: 100%;
+header {
   background: url("img/header_mobile.png") no-repeat;
+    width: 100%;
+      height: 100%;
   background-size: cover;
   border-top: 1px solid transparent;
   background-position: center top;
@@ -649,7 +684,7 @@ width: 30px;
   margin-right: 6vw;
 }
 
-  a {
+.about_buttom, .catalog_buttom {
 font-size: 12px;
 margin: 0px 13px 0px 20px;
 }
@@ -658,7 +693,7 @@ margin: 0px 13px 0px 20px;
   margin-bottom: 40vw;
 }
   
-  h1{
+.top__first-tagline{
     font-size: 80px;
        text-align: center;
   margin: 0 0 10.5vw 0;
